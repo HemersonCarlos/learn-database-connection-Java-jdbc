@@ -34,6 +34,4 @@ public class RegisteredPersonEmail {
 	public String toString() {
 		return "Id e-mail: " + this.emailId + ".\nPerson E-mail " + this.personEmail + ".";
 	}
-	
-	
 }

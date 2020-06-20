@@ -5,7 +5,7 @@ use register_person;
 
 drop table if exists Person;
 create table Person(
-	personId int not null,
+	personId int identity not null,
 	personName varchar(255) not null,
 	personAge int not null,
 	primary key ( personId )
@@ -15,7 +15,7 @@ create table Person(
 
 drop table if exists EmailRegistration;
 create table EmailRegistration(
-	emailId int not null,
+	emailId int identity not null,
 	personEmail varchar(255) not null,
 	primary key ( emailId )
 );
