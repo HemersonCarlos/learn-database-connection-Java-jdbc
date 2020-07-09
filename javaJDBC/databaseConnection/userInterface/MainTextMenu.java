@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainTextMenu {
 
 	private static final int PEOPLE = 1;
-	private static final int DEPARTMENT = 2;
+//	private static final int DEPARTMENT = 2;
 	
 	private static final int ADD = 1;
 	private static final int LIST = 2;
