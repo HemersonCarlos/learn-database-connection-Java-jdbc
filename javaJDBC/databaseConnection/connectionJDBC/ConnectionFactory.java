@@ -13,10 +13,6 @@ public class ConnectionFactory {
 
 	public static void main(String[] args) {
 		
-		PersonDataAccessObject person = new PersonDataAccessObject();
-		EmailDataAccessObject email = new EmailDataAccessObject();
-		
-		
 		// ------------------------------------------------
 		System.out.println("**Started connection with database!**");
 		System.out.println("**(DATABASE) - Connected to Microsoft SQL Server!");
