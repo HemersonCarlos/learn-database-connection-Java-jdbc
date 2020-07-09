@@ -1,4 +1,4 @@
-package connectionJDBC;
+package model;
 
 public class RegisteredPersonEmail {
 
